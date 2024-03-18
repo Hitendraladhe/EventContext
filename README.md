@@ -1,70 +1,27 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Happpy to share new project  I'm creating new web Applications using react-js with context api 
 
-In the project directory, you can run:
 
-### `npm start`
+Technologies used in building that Applicaion "Front-End" TECHNOLOGIES"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+FROTEND SETUP :- first we are creating frontend react app using commmand "npx create-react-app evnapp"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+then we have source folder we are creating components folder in that file we have Navbar, LogIn, SignUp, Home, AddEvent, Blogs, Footer, NotFound ,context Help reusable components we are creating index.js and index.css file we are linking the file index.css by importing it
 
-### `npm run build`
+LOGIN:- we are have login form in this we have heading, label, inputs, and Submit Button when we clicking on submit button if we are authorize user so data of user is (username, email, password) is stored in localStorage we also have the text link for new user to navigate to SIGNUP page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+SIGNUP:- we are have signup form in this we have heading, label, inputs, and Submit Button we also have the text link for new user to navigate to LOGIN page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+HOME:- we are having Navbar and event page in this page we are showing all events using the data from context api then after that and showing the data with the help of html code
+for styling we have index.css file we have hostEvent functionality when we are clicking on it we are navigate to addEvent component form with the help of LINK by react-router-dom and 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Events:- we are having Image events title and  event name , and if like so font diamond is red otherwise black 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navbar:- we are having navbar components on top of home components we have logo eventbrite we having diferent page Link on it and we have avatar image when we clicking on it we have seen popup screen in this we have user image, name , email
+we have input element when we click on this input element the event are sorting with the help of input data almost all the functionality use in this is context with the help of context we have get app performance better it avoid many thing props drilling long line of code then we have to use this context api 
+for small applications when we create bigger data applications we have to use redux , rtk
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
