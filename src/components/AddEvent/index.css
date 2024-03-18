@@ -1,0 +1,87 @@
+.formContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    min-height: 60vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 3rem;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.input{
+    width: 10rem;
+    height: 1.5rem;
+}
+h4{
+    text-align: center;
+    margin-top: -50px;
+}
+.lable{
+    font-size: .1rem;
+}
+.back{
+    width: 4rem;
+    height: 1.5rem;
+    background-color: rgb(223, 35, 129);
+    border: 1px goldenrod solid;
+    margin-top: -5rem;
+    margin-bottom: 1rem;
+    color: aliceblue;
+    font-size: 1rem;
+}
+.form button{
+    width: 7rem;
+    height: 1.5rem;
+    background-color: rgb(223, 35, 129);
+    border: 1px goldenrod solid;
+    margin-top: 1rem;
+    color: aliceblue;
+    font-size: 1rem;
+    transition: 1s linear;
+}
+
+.form button:hover{
+    background-color: green;
+    transform: scale(1.1);
+    z-index: 2;
+    border-radius: 10px;
+  }
+
+.Link{
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 700px) {
+    .input{
+        width: 6rem;
+    }
+    .form{
+        height: 40vh;
+        margin-top: 0px;
+    }
+    .Link{
+        margin-left: 2rem;
+        margin-top: 6rem;
+    }
+    h6{
+        margin-top: .5rem;
+        font-size: .5rem;
+    }
+    .form button{
+        width: 4rem;
+        margin-top: 10px;
+        padding-bottom: .5rem;
+    }
+}

@@ -1,0 +1,88 @@
+
+.bg-main{
+    margin-top: 10px;
+    height: 20vh;
+    width: 100vw;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(66, 65, 67, 0.079);
+}
+.first-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.icon-con{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+.input-footer{
+    height: 50px;
+    width: 300px;
+}
+.input-con{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fa{
+  height: 50px;
+  width: 50px;
+  border: 2px #000 solid;
+  font-size: 30px;
+  margin: 10px;
+}
+.in{
+    height: 50px;
+    width: 50px;
+    border: 2px #000 solid;
+    font-size: 30px;
+    margin: 10px;
+}
+.imglogociti{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.imglogociti:hover{
+    transform: scale(.02);
+    z-index: 2;
+}
+.subscribe{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    color: #fff;
+    margin: 0px;
+}
+.cart-cities{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.carta{
+    margin: 50px;
+}
+
+.bottom{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    padding: 50px;
+}
+h3{
+  margin-left: 50px;
+  font-size: 25px; 
+}
+h3:hover{
+    transform: scale(.02);
+    z-index: 2;
+}

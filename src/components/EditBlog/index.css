@@ -1,0 +1,70 @@
+.formContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 3rem;
+}
+.input{
+    width: 15rem;
+    height: 1.5rem;
+
+}
+h4{
+    text-align: center;
+    margin-top: -10px;
+}
+.back{
+    width: 4rem;
+    height: 1.5rem;
+    background-color: rgb(223, 35, 129);
+    border: 1px goldenrod solid;
+    margin-top: -1rem;
+    color: aliceblue;
+    font-size: 1rem;
+}
+.form button{
+    width: 7rem;
+    height: 1.5rem;
+    background-color: rgb(223, 35, 129);
+    border: 1px goldenrod solid;
+    margin-top: 1rem;
+    color: aliceblue;
+    font-size: 1rem;
+    margin-bottom: .3rem;
+}
+
+
+@media screen and (max-width: 700px) {
+    .input{
+        width: 6rem;
+    }
+    .form{
+        height: 40vh;
+        margin-top: 0px;
+    }
+    .Link{
+        margin-left: 2rem;
+        margin-top: 6rem;
+    }
+    h6{
+        margin-top: .5rem;
+        font-size: .5rem;
+    }
+    .form button{
+        width: 4rem;
+        margin-top: 10px;
+        padding-bottom: .5rem;
+    }
+}
